@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'>
+<title>ReviewSpace</title>
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="SvBTi6GKz7EyvWSk3U5sRRR16ifoegeS8gxe44JFullnc9yX5CycvYnqvZHu1L4MY8f+lKhHshJoBydN+1VkCQ==" />
+<link rel="stylesheet" media="all" href="/assets/application-c617cd3cc56ea5db583836527c3a19ec935e32bc3e23710c957791a1d7ac6c38.css" />
+<script src="/javascripts/application.js"></script>
+</head>
+
+<body>
+  <div class="notification">
+    <div class="notice">チャットグループが作成されました</div>
+  </div>
+  <div class="chat-side">
+    <div class="chat-side__user">
+      <h1>user</h1>
+    </div>
+    <div class="chat-side__groups">
+      <div class="chat-side__groups-list1">
+      <h2>group1</h2>
+      <p>アイウエオ</p>
+      </div>
+      <div class="chat-side__groups-list2">
+      <h2>group2</h2>
+      <p>まだメッセージはありません</p>
+      </div>
+      <div class="chat-side__groups-list3">
+      <h2>group3</h2>
+      <p>まだメッセージはありません</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="chat-main">
+    <div class="chat-main__header">
+      <div class="chat-main__header--group clearfix">
+      <h3>group1</h3>
+      </div>
+      <div class="chat-main__header--members">
+      <p2>MEMBER: hirota</p2>
+      </div>
+    </div>
+    <div class="chat-main__body">
+      <div class="chat-comment1">
+        <h4>ryosukemaehira</h4>
+        <p>アイウエオ</p>
+      </div>
+      <div class="chat-comment2">
+        <h4>ryosukemaehira</h4>
+        <p>かきくけこ</p>
+      </div>
+      <div class="chat-comment3">
+        <h4>ryosukemaehira</h4>
+        <p>さしすせそ</p>
+      </div>
+    </div>
+    <div class="chat-main__footer">
+      <form class="chat-main__footer-form" id="new_message" enctype="multipart/form-data" action="/groups/2188/messages" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="T3sknXJGhTTB2rKG8VfiUA7w7JwZGRbi0jSx8li3mMpi+KuBN+DWOHqNa7PCzTAZeUL4L1kko2JIP8hcIadGmg=="><div class="chat-main__footer-body">
+      <input placeholder="type a message" class="message" type="text" name="message[body]" id="message_body">
+      <label class="chat-file" for="message_image"><input class="image" type="file" name="message[image]" id="message_image">
+      <i class="fa fa-image"></i>
+      </label></div>
+      <input type="submit" name="commit" value="Send" class="submit" data-disable-with="Send">
+      </form>
+    </div>
+  </div>
+</body>
